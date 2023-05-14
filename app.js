@@ -10,7 +10,7 @@ router.get('/profile', (req, res) => {
     res.send('Hello People, This is my profile page!')
 });
 
-router.get('login', (req, res) =>{
+router.get('/login', (req, res) =>{
     res.send('Hello People, This is my login page');
 });
 
